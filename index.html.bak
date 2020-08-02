@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Mera Kirana</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ <!--Jquery-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<!--Floating WhatsApp css-->
+<link rel="stylesheet" href="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.css">
+<!--Floating WhatsApp javascript-->
+<script type="text/javascript" src="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.js"></script>
+<script>
+$(function() {
+  $('#WAButton').floatingWhatsApp({
+    phone: '+91 9949386177', //WhatsApp Business phone number International format-
+    //Get it with Toky at https://toky.co/en/features/whatsapp.
+    headerTitle: 'Chat with us on WhatsApp!', //Popup Title
+    popupMessage: 'Hello, how can we help you?', //Popup Message
+    showPopup: true, //Enables popup display
+    buttonImage: '<img src="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/whatsapp.svg" />', //Button Image
+    //headerColor: 'crimson', //Custom header color
+    //backgroundColor: 'crimson', //Custom background button color
+    position: "right"    
+  });
+});
+</script>
+
+
+
+<style>
+body {
+  background-image: url('bg2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+</style>
+</head>
+<body>
+
+<nav class="navbar-dark bg-dark">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html">Mera Kirana</a>
+    </div>
+   
+    <form class="navbar-form navbar-right" action="/action_page.php">
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search" name="search">
+        <div class="input-group-btn">
+          <button class="btn btn-default" type="submit">
+            <i class="glyphicon glyphicon-search"></i>
+          </button>
+        </div>
+      </div>
+    </form>
+  </div>
+  
+  </div>
+</nav>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"></a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Essentials <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="rice.html">Rice and Flours</a></li>
+          <li><a href="#">Oils and Ghee</a></li>
+          <li><a href="#">Pulses/Dals</a></li>
+		  <li><a href="#">Fruits and Vegetables</a></li>
+		  <li><a href="#">Spices</a></li>
+        </ul>
+
+      <li><a href="#">Personal Care</a></li>
+      <li><a href="#">Home Care</a></li>
+	 <li><a href="#">About Us</a></li>
+	 <li><a href="#">Contact</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="registration.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="login1.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="veg.jpg" alt="Los Angeles">
+    </div>
+
+    <div class="item">
+      <img src="groce.jpg"  width="1500px" height="1566px" alt="Chicago">
+    </div>
+
+    <div class="item">
+      <img src="groc.jpg" width="1500px" height="1366px" alt="New York">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<div style="float:left;margin-right:20px;">
+<video width="1350" height="600" align="center" controls autoplay>
+  <source src="vid.mov" type="video/mp4">
+ 
+ 
+</video>
+<p><font size="6" face="cambria">&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSafe Delivery &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspCustomer Loyalty&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp      Our Policy</font></p	>
+
+<img src="del.jpg" width="420px" height="340px">
+&nbsp&nbsp&nbsp&nbsp
+<img src="sat.jpg" width="420px" height="340px" align="center"></img>
+&nbsp&nbsp&nbsp&nbsp
+<img src="cust.jpg" width="420px" height="340px" align="center"></img>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- -------------------------------------------FOOTER--------------------------------------- -->
+<b><div class="main" bgcolor="Beige" align="center"></div>
+		<footer class="footer-distributed">
+ <center>
+		<div class="footer-center">
+ 
+		<h3> We're here for You in your difficult times!</h3>
+ 
+		<p class="footer-links">
+		<a href="#">Home</a>
+	
+		<a href="#">Blog</a>
+	
+		<a href="#">About</a>
+	
+		<a href="#">Faq</a>
+	
+		<a href="#">Contact</a>
+		</p>
+ 
+		<p class="footer-company-name">Merakirana &copy; 2019</p>
+		</div>
+ 
+		<div class="footer-center">
+ 
+		<div>
+		<i class="fa fa-map-marker"></i>
+		<p><span>Hyderabad, </span>Telangana, India</p>
+		</div>
+ 
+		<div>
+		<i class="fa fa-phone"></i>
+		<p>+91 12346789</p>
+		</div>
+ 
+		<div>
+		<i class="fa fa-envelope"></i>
+		<p><a href="mailto:support@company.com">contact@www.merakirana.in</a></p>
+		</div>
+ 
+		</div>
+ 
+		<div class="footer-right">
+ 
+		<p class="footer-company-about">
+		<span>About the company:</span>
+	<b>We deliver all your daily essentials, taking all the precautionary measures...#Stayhome #Staysafe</b>
+		</p>
+ 
+		<div class="footer-icons">
+ 
+		<a href="#"><i class="fa fa-facebook"></i></a>
+		<a href="#"><i class="fa fa-twitter"></i></a>
+		<a href="#"><i class="fa fa-linkedin"></i></a>
+		<a href="#"><i class="fa fa-github"></i></a>
+ 
+		</div>
+ 
+		</div>
+ </b>
+		</footer>
+ </center>
+
+<!--Div where the WhatsApp will be rendered-->
+  <div id="WAButton"></div>
+
+
+  
+
+  
+</body>
+</html>
